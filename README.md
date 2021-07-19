@@ -18,8 +18,11 @@ A site to enable:
 - [ ] Admin pages - Manage notes / users
 
 ## DATA
-### USER  - Name / email address / role / contact info / ID / CreatedOn / UpdatedOn
-### NOTES - Type / Title / Detail / Efective Dates / Expiry Dates / ID / CreatedOn / UpdatedOn
-### META  - Building / Floor / Msg Type / Rules / Security
+#### USER
+Name / email address / role / contact info / ID / CreatedOn / UpdatedOn
+#### NOTES
+Type / Title / Detail / Efective Dates / Expiry Dates / ID / CreatedOn / UpdatedOn
+#### META
+Building / Floor / Msg Type / Rules / Security
 
 
