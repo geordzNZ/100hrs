@@ -10,14 +10,14 @@ A site to enable:
 2) Users to logon and check notes / manage account
 
 
-
 ## TO DOS
 - [ ] Login Page
 - [ ] User pages - Summary of notes / admin tasks
 - [ ] Group notice page - page of cards to show notes / filters / search)
 - [ ] Admin pages - Manage notes / users
 
-## DATA
+
+## DATA IDEAS
 #### USER
 Name / email address / role / contact info / ID / CreatedOn / UpdatedOn
 #### NOTES
