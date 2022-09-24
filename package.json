@@ -1,0 +1,19 @@
+{
+  "name": "100hrs",
+  "version": "1.0.0",
+  "description": "Building notification system",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geordzNZ/100hrs.git"
+  },
+  "author": "Geordie King",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geordzNZ/100hrs/issues"
+  },
+  "homepage": "https://github.com/geordzNZ/100hrs#readme"
+}
