@@ -1,28 +1,29 @@
 # 100hrs project
 
 ## BACKGROUND
-In my building the concierge's write out notes to put in our mail boxes when packages have arrived.  Sometimes these go missing, dont show up if they are not 'posted'. We have multiple buildings for them to cover so lots of delivery time.
+In my building the concierge's write out notes to put in our mail boxes when packages have arrived.  Sometimes these go missing, dont show up if they are not 'posted'. We have multiple buildings for them to cover so lots of delivery time and delays.
 
 
 ## PURPOSE
-A site to enable:
-1) Building Management to post notes about deliveries / group notes to all.
-2) Users to logon and check notes / manage account
+A site to enable the above process, by creating a web application to manage this whole process.
+1) Record Deliveries and details
+2) Record and post notes about deliveries  - web based for now, may be SMS/email later on.
+3) Group notes to all
+4) Users to logon and check notes / manage account
 
 
-## TO DOS
-- [ ] Login Page
-- [ ] User pages - Summary of notes / admin tasks
-- [ ] Group notice page - page of cards to show notes / filters / search)
-- [ ] Admin pages - Manage notes / users
+## PAGES
+* Login/Out / Sign Up
+* Delivery pages - List of info / new record entry / views for different status'
+* Group notice page - page of cards to show notes / filters / search
+* User pages - Open Notes / Summary of notes (status') / admin tasks
+* Admin pages - Manage reference data / users info
 
 
-## DATA IDEAS
-#### USER
-Name / email address / role / contact info / ID / CreatedOn / UpdatedOn
-#### NOTES
-Type / Title / Detail / Efective Dates / Expiry Dates / ID / CreatedOn / UpdatedOn
-#### META
-Building / Floor / Msg Type / Rules / Security
+## DATA 
+ * NOTES: Title / Content / Type / Attachments /Audience / Efective Dates / Expiry Dates / Standard Fields
+ * USER: Name / Email / Phone / Role / Contact info / Password / Preferences / Standard Fields
+ * BUILDING: Name / Address / Contact / Floors / Standard Fields
+ * META: Lookups / Msg Types / Roles / Security Groups / Permissions / Status
 
 
