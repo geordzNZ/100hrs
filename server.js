@@ -21,7 +21,7 @@ const knex = require('knex')({
 knex('tblTest')
   .select('Comment')
   .where('Name', 'StartConn')
-  .then(returnedRecords => console.log(`2) DB Says:  ${returnedRecords[0].Comment}`))
+  .then(returnedRecords => console.log(`DB Says:  ${returnedRecords[0].Comment}`))
   .finally(function () { knex.destroy() })
 
 app.set('view engine', 'ejs')

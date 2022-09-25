@@ -4,9 +4,8 @@
   "description": "Building notification system",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start_appjs": "node app.js",
-    "start_serverjs": "node server.js"
+    "start_NMserverjs": "nodemon server.js"
+
   },
   "repository": {
     "type": "git",
@@ -29,10 +28,12 @@
     "moment": "^2.29.4",
     "morgan": "^1.10.0",
     "mssql": "^9.0.1",
-    "nodemon": "^2.0.20",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "tedious": "^15.1.0",
     "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
