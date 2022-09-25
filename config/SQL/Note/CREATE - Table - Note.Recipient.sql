@@ -1,0 +1,19 @@
+USE [BuildingApp]
+GO
+
+--DROP TABLE IF EXISTS Note.Recipient
+--GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [Note].[Recipient](
+  [RecipientID] INT IDENTITY(1,1) NOT NULL,
+  [NoteID] INT NOT NULL,
+  [UserID] INT NULL,
+  [GroupID] INT NULL,
+) ON [PRIMARY]
+GO

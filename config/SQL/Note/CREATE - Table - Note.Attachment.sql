@@ -1,0 +1,19 @@
+USE [BuildingApp]
+GO
+
+--DROP TABLE IF EXISTS Note.Attachment
+--GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [Note].[Attachment](
+  [AttachmentID] INT IDENTITY(1,1) NOT NULL,
+  [NoteID] INT NOT NULL,
+  [FileType] VARCHAR(5) NOT NULL,
+  [FilePath] VARCHAR(1000) NOT NULL,
+) ON [PRIMARY]
+GO
