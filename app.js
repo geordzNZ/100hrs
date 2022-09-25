@@ -1,4 +1,4 @@
-console.log('hi from main.js')
+console.log('hi from app.js')
 require('dotenv').config({path: './config/.env'})
 
 
@@ -14,14 +14,13 @@ const knex = require('knex')({
     }
 });
 
-knex.select('*').from('tblTest')
-    .then(tblTestRows => {
-        tblTestRows.forEach(testRow => {
-            console.log(testRow)
-        })
-        console.log('Records: ',tblTestRows.length)
-    }).catch(err => {
-        console.log('ERROR:',err)
+knex.select('*')
+  .from('tblTest')
+  .where('Name', 'StartConn')
+    .then(returnedRecords => {
+      returnedRecords.forEach(record => {
+        console.log(`DB Says:  ${record.Comment}`)
+      })
     }).finally(function () {
         knex.destroy()
     })

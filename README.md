@@ -21,9 +21,11 @@ A site to enable the above process, by creating a web application to manage this
 
 
 ## DATA 
- * NOTES: Title / Content / Type / Audience / Efective Dates / Expiry Dates / Standard Fields / Attachments
- * USER: Name / Email / Phone / Role / Contact info / Password / Preferences / Standard Fields
- * BUILDING: Name / Address / Contact / Floors / Standard Fields
- * META: Lookups / Msg Types / Roles / Security Groups / Permissions / Status
+ * NOTE: Title / Content / Type / Audience / Efective Dates / Expiry Dates / Attachments
+ * PERSON: Name / Email / Phone / Role / Contact info / Password / Preferences
+ * REFERENCE: Lookups / Msg Types / Status / Buildings
+ * SECURITY:Lookups / Msg Types / Roles / Security Groups / Permissions
+
+
 
 
