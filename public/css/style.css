@@ -1,3 +1,13 @@
+/*
+616163 -- Granite Gray
+44FFD2 -- Sea Green Crayola
+5603AD -- Purple
+F0803C -- Mango Tango
+FF206E -- Winter Sky
+*/
+
+
+
 /* Box Model Hack */
 * {
   box-sizing: border-box;
@@ -22,9 +32,14 @@
 /*******************************************/
 
 body {
-
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
+main {
+  flex: 1 0 auto;
+}
 
 /******************************************
 /* LAYOUT

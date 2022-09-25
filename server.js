@@ -1,6 +1,7 @@
 console.log('hi from server.js')
 const express = require('express')
 const app = express()
+const routeMain = require('./routes/main')
 require('dotenv').config({path: './config/.env'})
 
 
@@ -31,9 +32,8 @@ app.use(express.json())
 
 
 
-// app.use('/', routeMain)
-// app.use('/notes', routeNotes)
+app.use('/', routeMain)
 
-app.listen(process.env.PORT, ()=>{
-  console.log('SERVER ENGAGED --> Lets go get 🍕!!')
+app.listen(process.env.SERVER_PORT, ()=>{
+  console.log(`PORT ${process.env.SERVER_PORT} ENGAGED  -->  Lets go get 🍕!!`)
 })
