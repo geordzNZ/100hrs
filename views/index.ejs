@@ -6,21 +6,7 @@
 
 
 <body class=" indigo lighten-4">
-    <header>
-      <br>
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6">
-            <i class="material-icons-outlined">business</i>
-            <i class="material-icons-outlined">apartment</i>
-            <br>
-            <i class="material-icons-outlined">location_city</i>
-            <i class="material-icons-outlined">house</i>
-          </div>
-        </div>
-      </div>
-        
-    </header>
+  <%- include('partials/_pageHeader.ejs', {pageTitle:'Building Management App'} ) %>
 
     <main>
         <div class="container">
@@ -31,21 +17,16 @@
             </div>
             <div class="row">
                 <div class="col s6 offset-s3 center-align">
-                    <a href="/landing" class="waves-effect waves-light btn indigo lighten-1 btnWide frontLoginButton"> Login</a>                 
-                    <a href="/landing" class="waves-effect waves-light btn indigo lighten-1 btnWide frontSignupButton"> Signup</a>
+                    <a href="/landingPage" class="waves-effect waves-light btn indigo lighten-1 btnWide frontLoginButton"> Login</a>                 
+                    <a href="/landingPage" class="waves-effect waves-light btn indigo lighten-1 btnWide frontSignupButton"> Signup</a>
                 </div>
             </div>
             
         </div>
     </main>
 
-    <footer class="page-footer indigo darken-4">   
-        <div class="footer-copyright">
-          <div class="container center-align">
-            <span>&#169; Made by geordzNZ </span>
-          </div>
-        </div>
-    </footer>
+    <%- include('partials/_pageFooter.ejs' ) %>
+
    
 
   <script type="text/javascript" src="js/materialize.min.js"> </script>
