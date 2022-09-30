@@ -30,8 +30,6 @@ app.use(express.static('public'))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
-
-
 app.use('/', routeMain)
 
 app.listen(process.env.SERVER_PORT, ()=>{
