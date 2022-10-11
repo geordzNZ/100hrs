@@ -28,12 +28,12 @@ module.exports = {
 
     // checkDB()
     
-    res.render('dashbaordPage.ejs', { pageTitle: 'BMA - dashbaord1' })
+    res.render('dashboardPage.ejs', { pageTitle: 'BMA - dashboard1' })
   },
   postSignUp: async (req,res) => {
     console.log('Hi from postSignUp')
     console.log(req.body)
 
-    res.render('dashbaordPage.ejs', { pageTitle: 'BMA - dashbaord2' })
+    res.render('dashboardPage.ejs', { pageTitle: 'BMA - dashboard2' })
   }
 }

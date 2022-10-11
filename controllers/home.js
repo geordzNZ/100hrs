@@ -7,7 +7,7 @@ module.exports = {
 //   getSignUp: (req,res)=>{
 //     res.render('signUp.ejs')
 // },
-  getdashbaordPage: (req,res)=>{
-    res.render('dashbaordPage.ejs')
+  getdashboardPage: (req,res)=>{
+    res.render('dashboardPage.ejs', { pageTitle: 'BMA - dashboard' })
   }
 }
