@@ -7,7 +7,7 @@ module.exports = {
 //   getSignUp: (req,res)=>{
 //     res.render('signUp.ejs')
 // },
-  getLandingPage: (req,res)=>{
-    res.render('landingPage.ejs')
+  getdashbaordPage: (req,res)=>{
+    res.render('dashbaordPage.ejs')
   }
 }
