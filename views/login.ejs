@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-
-<%- include('partials/_htmlHead.ejs', {pageTitle:'Sign Up - BMA'} ) %>
-
-
-
-
-<body class=" indigo lighten-4">
-    <main>
+    <main class=" indigo lighten-4">
         <div class="container">
             <div class="row">
                 <div class="col s12 center-align">
@@ -14,7 +6,7 @@
                 </div>
             </div>
             <div class="row">
-              <form class="col s12 myBorder" action="/login" method="POST">
+              <form class="col s12" action="/login" method="POST">
                 <div class="row">
                   <div class="input-field col s6 offset-s3">
                     <i class="material-icons prefix">alternate_email</i>
@@ -39,13 +31,3 @@
             
         </div>
     </main>
-
-    <%- include('partials/_pageFooter.ejs' ) %>
-
-   
-
-  <script type="text/javascript" src="js/materialize.min.js"> </script>
-  <!-- <script type="text/javascript" src="js/main.js"></script> -->
-    
-</body>
-</html>
