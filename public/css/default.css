@@ -61,3 +61,11 @@ main {
 .myBorder {
   border: 1px solid red;
 }
+
+.avatar {
+  margin-top: 18px;
+}
+
+.leftNav {
+  color: white;
+}
