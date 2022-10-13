@@ -5,9 +5,14 @@
                   <h1 class="indigo-text darken-4">BUILDING<br>MANAGEMENT<br>APP</h1>
                 </div>
             </div>
-            <div class="row m3">
-              <!-- <form class="col s12 z-depth-4" action="/login" method="POST"> -->
-              <form class="col s12 z-depth-4" action="/dashboardPage" method="GET">
+            <div class="row">
+              <% if (errors) { %> <% errors.forEach( err => { %>
+                <div class="alert alert-danger"><%= err.msg %></div>
+                <% }) %> <% } %> 
+            </div>
+            <div class="row">
+              <form class="col s12 z-depth-4" action="/login" method="POST">
+              <!-- <form class="col s12 z-depth-4" action="/dashboardPage" method="GET"> -->
                 <div class="row">
                   <div class="input-field col s6 offset-s3">
                     <i class="material-icons prefix">alternate_email</i>
