@@ -4,7 +4,7 @@
   "description": "Building notification system",
   "main": "app.js",
   "scripts": {
-    "start_NMserverjs": "nodemon server.js"
+    "start_NM_serverjs": "nodemon server.js"
   },
   "repository": {
     "type": "git",

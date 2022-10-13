@@ -18,7 +18,7 @@ connection: {
 knex('tblTest')
 .select('Comment')
 .where('Name', 'StartConn')
-.then(returnedRecords => console.log(`DB1 Says:  ${returnedRecords[0].Comment}`))
+.then(returnedRecords => console.log(`DB_Conn Says:  ${returnedRecords[0].Comment}`))
   .finally(function () { knex.destroy() })
 
 module.exports = knex;

@@ -1,4 +1,5 @@
 console.log('hi from server.js')
+
 const express = require('express')
 const app = express()
 const expressLayouts = require('express-ejs-layouts')
@@ -11,7 +12,7 @@ const knex = require('./config/database')
 knex('tblTest')
   .select('Comment')
   .where('Name', 'StartConn')
-  .then(returnedRecords => console.log(`DB2 Says:  ${returnedRecords[0].Comment}`))
+  .then(returnedRecords => console.log(`DB_ServerJS Says:  ${returnedRecords[0].Comment}`))
   .finally(function () { knex.destroy() })
 
 
