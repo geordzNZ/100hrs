@@ -8,18 +8,15 @@ const keystoreController = require('../controllers/keystore')
 
 
 router.get('/', homeController.getIndex)
-router.get('/signUp', authController.getSignUp)
-router.post('/signUp', authController.postSignUp)
 router.get('/login', authController.getLogin)
 router.post('/login', authController.postLogin)
+router.get('/signUp', authController.getSignUp)
+router.post('/signUp', authController.postSignUp)
 router.get('/dashboardPage', homeController.getdashboardPage)
 router.get('/Deliveries', deliveryController.getDeliveryIndex)
 router.get('/KeyStore', keystoreController.getkeyStoreIndex)
 router.get('/Admin', adminController.getAdminIndex)
 
-// router.post('/login', authController.postLogin)
 // router.get('/logout', authController.logout)
-// router.get('/signup', authController.getSignup)
-// router.post('/signup', authController.postSignup)
 
 module.exports = router
