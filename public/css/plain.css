@@ -64,6 +64,17 @@ form {
   width: 100px;
 }
 
+.alert {
+  color: red;
+}
+/* .alert>i {
+  margin-right: 10px;
+} */
+
+
+
+
+
  .shaker:focus {
     animation: shake 0.5s;
     animation-duration: 0.5s;

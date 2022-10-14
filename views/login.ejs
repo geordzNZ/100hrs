@@ -6,9 +6,19 @@
                 </div>
             </div>
             <div class="row">
-              <% if (errors) { %> <% errors.forEach( err => { %>
-                <div class="alert alert-danger"><%= err.msg %></div>
-                <% }) %> <% } %> 
+              <div class="col s12 center-align">
+                <% if (errors) { %> 
+                  <div>
+                    <i class="material-icons-outlined red lighten-3">error</i>
+                    ... FORM VALIDATION ERROR<%= errors.length === 1 ? '' : 'S'%> ...
+                    <i class="material-icons-outlined red lighten-3">error</i>
+                  </div>
+                  <% errors.forEach( err => { %>
+                    <div class="alert">
+                      <%= err.msg %>
+                    </div>
+                  <% }) %> <% } %> 
+                </div>
             </div>
             <div class="row">
               <form class="col s12 z-depth-4" action="/login" method="POST">
